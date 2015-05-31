@@ -9,5 +9,5 @@
 	);
 
 	$config['cookie_dir'] = './secure/cookie/';
-	$config['signature-document'] = '<br />by <a href="http://toe.rhythmga.me/">ToEMv2</a>';
+	$config['signature-document'] = '<br />by <a href="http://github.com/mAKEkr/toez2dj-net-mobile">ToEM</a>';
 	$config['signature-comment'] = '✓';

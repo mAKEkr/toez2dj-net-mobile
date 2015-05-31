@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://toe.rhythmga.me';
+$config['base_url']	= 'domain here';
 
 /*
 |--------------------------------------------------------------------------
