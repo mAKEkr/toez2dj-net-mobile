@@ -9,7 +9,6 @@
 		<!-- Stylesheets -->
 		<link rel="Stylesheet" type="text/css" href="/static/css/bootstrap.custom.css" />
 		<link rel="Stylesheet" type="text/css" href="/static/css/font-awesome.min.css" />
-		<link rel="Stylesheet" type="text/css" href="/static/css/ss-gizmo.css" />
 		<link rel="Stylesheet" type="text/css" href="/static/css/core.css?20140624183801" />
 		<?php if($this->input->cookie('general-cdnfont') != 'disable') : ?>
 		<link rel="Stylesheet" type="text/css" href="/static/css/font.css?20131204164501" />
@@ -21,18 +20,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="/static/js/jquery.cookie.js"></script>
 		<script src="/static/js/core.js"></script>
-		<script type="text/javascript">
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-45881473-1']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		</script>
-		<title>ToEMv2</title>
+		<title>toez2dj-net-mobile</title>
 	</head>
 	<body>
 		<div id="core-container">
@@ -60,8 +48,7 @@
 				</ul>
 				<?php if($this->input->cookie('general-menueffect') != 'disable') : ?>
 				<div id="core-footer">
-					Serviced 2012-2013 mAKEkr All right reserved.<br />
-					Powered by <a href="http://toez2dj.net">toez2dj.net</a><br />
+					Powered by <a href="https://github.com/mAKEkr/toez2dj-net-mobile">toez2dj-net-mobile</a><br />
 					Execute time : <?php echo $this->benchmark->elapsed_time();?>sec
 				</div>
 				<?php endif; ?>
@@ -117,16 +104,5 @@
 							<span class="description">PC버젼</span>
 						</a>
 					</div>
-				</div>
-				<div id="advertisement">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- ToEMv2 -->
-					<ins class="adsbygoogle toemv2"
-						 style="display:inline-block"
-						 data-ad-client="ca-pub-9369047982429755"
-						 data-ad-slot="9694762292"></ins>
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
 				</div>
 				<div id="core-article">

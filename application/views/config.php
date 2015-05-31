@@ -62,22 +62,4 @@
 
 		<input class="btn btn-info" type="submit" value="적용하기" />
 	</form>
-
-	<!--
-	<h2>개발도구</h2>
-	<form action="/config" method="post">
-		<input type="hidden" name="redirect" value="<?php echo site_url(urldecode($_GET['return_url'])); ?>" />
-
-		<h3>개발모드 적용</h3>
-		<p>일반 사용자의 경우 체크를 해제해주세요.</p>
-		<div class="item">
-			<input type="radio" name="dev-debug_option" value="default" <?php if($this->input->cookie('dev-debug_option') == null) echo 'checked="checked" '; ?>id="dev-debug_option-1" />
-			<label for="dev-debug_option-1">사용 안함(기본)</label>
-			<input type="radio" name="dev-debug_option" value="enable" <?php if($this->input->cookie('dev-debug_option') == 'enable') echo 'checked="checked" '; ?>id="dev-debug_option-2" />
-			<label for="dev-debug_option-2">사용</label>
-		</div>
-
-		<input class="btn btn-info" type="submit" value="적용하기" />
-	</form>
-	-->
 </div>
